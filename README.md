@@ -8,7 +8,7 @@
 
 ## Project Introduction (프로젝트 소개)
 
-Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated.  
+Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br>
 
 
 ## Project Goals (프로젝트 목표)
@@ -16,7 +16,7 @@ Credit card payments are one of the indispensable convenient payment methods in 
 The main goals of the "GuardianPay" project are as follows:
 - Establish a system to detect abnormal card payment behavior and issue warnings.
 - Block transactions that appear suspicious during payment attempts and notify cardholders.
-- Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior.
+- Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior. <br> <br>
 
 
 ## Project Technology Stack (프로젝트 기술 스택)
