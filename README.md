@@ -8,7 +8,7 @@
 
 ## Project Introduction (프로젝트 소개)
 
-Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br>
+Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br> <br>
 
 
 ## Project Goals (프로젝트 목표)
@@ -25,7 +25,7 @@ The "GuardianPay" project uses the following technology stack:
 - Language: Python
 - Machine learning and deep learning libraries: TensorFlow, PyTorch
 - Data analysis and visualization: Pandas, Matplotlib, Seaborn
-- Web application development (optional): Flask, HTML, CSS
+- Web application development (optional): Flask, HTML, CSS <br> <br>
 
 
 ## Project Workflow (프로젝트 진행 방식)
@@ -35,7 +35,7 @@ The project will proceed in the following steps:
 2. Data Preprocessing: Refine collected data and process it into the required format.
 3. Model Development: Develop and train machine learning and deep learning models.
 4. System Implementation: Build a system to detect abnormal card payment behavior in real-time using the models.
-5. Web Application (optional): Develop a web application for cardholders to monitor their payment activities.
+5. Web Application (optional): Develop a web application for cardholders to monitor their payment activities. <br> <br>
 
 
 
