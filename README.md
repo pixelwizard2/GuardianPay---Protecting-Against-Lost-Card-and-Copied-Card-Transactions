@@ -32,4 +32,38 @@
 4. 시스템 구축: 모델을 사용하여 카드 결제 이상 행위를 실시간으로 감지하는 시스템 구축
 5. 웹 애플리케이션 (옵션): 카드 소유자가 자신의 결제 활동을 모니터링할 수 있는 웹 애플리케이션 개발
 
+# GuardianPay - Protecting Against Lost Card and Copied Card Transactions
+
+Preventing abnormal transaction patterns and preventing duplicate card payment program (NLP)
+
+## Project Introduction (프로젝트 소개)
+
+Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated.
+
+## Project Goals (프로젝트 목표)
+
+The main goals of the "GuardianPay" project are as follows:
+- Establish a system to detect abnormal card payment behavior and issue warnings.
+- Block transactions that appear suspicious during payment attempts and notify cardholders.
+- Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior.
+
+## Project Technology Stack (프로젝트 기술 스택)
+
+The "GuardianPay" project uses the following technology stack:
+- Language: Python
+- Machine learning and deep learning libraries: TensorFlow, PyTorch
+- Data analysis and visualization: Pandas, Matplotlib, Seaborn
+- Web application development (optional): Flask, HTML, CSS
+
+## Project Workflow (프로젝트 진행 방식)
+
+The project will proceed in the following steps:
+1. Data Collection (데이터 수집): Collect card payment data from sources like Kaggle.
+2. Data Preprocessing (데이터 전처리): Refine collected data and process it into the required format.
+3. Model Development (모델 개발): Develop and train machine learning and deep learning models.
+4. System Implementation (시스템 구축): Build a system to detect abnormal card payment behavior in real-time using the models.
+5. Web Application (optional) (웹 애플리케이션 - 선택 사항): Develop a web application for cardholders to monitor their payment activities.
+
+
+
 
