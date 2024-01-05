@@ -38,7 +38,8 @@ Preventing abnormal transaction patterns and preventing duplicate card payment p
 
 ## Project Introduction (프로젝트 소개)
 
-Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated.
+Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated.  
+카드 결제는 현대 사회에서 빠질 수 없는 편리한 결제 수단 중 하나입니다. 그러나 카드 정보 유출, 복제, 무단 사용과 같은 카드 결제 이상 행위는 계속해서 증가하고 있습니다. 이로 인해 개인과 기업의 금융 안전이 위협 받고 있습니다. 이런 문제를 해결하고자 "GuardianPay" 프로젝트가 시작되었습니다.  
 
 ## Project Goals (프로젝트 목표)
 
