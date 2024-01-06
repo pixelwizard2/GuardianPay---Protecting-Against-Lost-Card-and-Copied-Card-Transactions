@@ -20,8 +20,8 @@ The main goals of the "GuardianPay" project are as follows:
 ## Project Technology Stack (프로젝트 기술 스택)
 
 The "GuardianPay" project uses the following technology stack:
-**- Language :** Python
-**- Data Analysis and Visualization :** Pandas, Matplotlib, Seaborn, Numpy
+-**- Language :** Python
+-**- Data Analysis and Visualization :** Pandas, Matplotlib, Seaborn, Numpy
 - Machine Learning and Modeling : Scikit-learn (train_test_split, confusion_matrix, classification_report)
 - Ensemble Learning Models : RandomForestClassifier, GradientBoostingClassifier
 - Algorithm-related Models : XGBoost, SVC (Support Vector Classifier)
