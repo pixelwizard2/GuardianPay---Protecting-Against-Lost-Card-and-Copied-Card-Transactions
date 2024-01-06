@@ -4,7 +4,7 @@
 
 비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> <br> <br>
 ![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
-## Project Introduction _(프로젝트 소개)_
+## Project Introduction (프로젝트 소개)
 
 Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br> <br>
 
