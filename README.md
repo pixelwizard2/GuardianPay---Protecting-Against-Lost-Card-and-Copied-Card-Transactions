@@ -2,7 +2,7 @@
 
 # GuardianPay - Protecting Against Lost Card and Copied Card Transactions
 
-_비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램_ <br> <br> <br>
+_비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램_ <br> <br>
 [![네이버 블로그](https://img.shields.io/badge/한국어%20번역본-03C75A?style=flat-square&logo=Naver&logoColor=white)](https://blog.naver.com/pixelwizard/223313104718)
 
 
