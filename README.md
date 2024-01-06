@@ -46,12 +46,14 @@ The project was conducted in the following steps:
 
 ## Project Execution Process (프로젝트 수행 과정)
 
-The project was carried out as follows:
+The project was carried out as follows: <br> <br>
 ![1  데이터셋 출력 사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/e5b5d00d-a73b-4127-b3a5-65ee23249441)
 Collected payment card information, user information, and fraud data files from Kaggle. <br> <br>
 
+![3  전처리완료](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/46130330-9e01-4df8-8975-1a1eb4dcd67d)
+Integrated and preprocessed datasets to form a consolidated file for model configuration. <br> <br>
 
-Integrated and preprocessed datasets to form a consolidated file for model configuration.
+
 Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected.
 Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.
 Conducted a chi-square test to derive the p-value, confirming a strong correlation between the two variables despite the small dataset, and decided to include these columns in the model.
