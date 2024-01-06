@@ -80,17 +80,19 @@ Project Challenges <br> <br> <br>
 
 ## Challenges encountered during the project were analyzed
 
-Organized and analyzed errors that occurred during the project progress: <br>  
+Organized and analyzed errors that occurred during the project progress: <br> <br>
 
 **Data Preprocessing Issue:**  
 
 **Problem:** During data file integration, fraud determination data values were transformed into NaN.  
-**Solution:** Unified data values to YES and NO, converted to 0 and 1, to resolve the issue caused by conflicts in NaN data values during file integration.  <br>
+**Solution:** Unified data values to YES and NO, converted to 0 and 1, to resolve the issue caused by conflicts in NaN data values during file integration. <br> <br>
 
 **Model Implementation Issue:**  
 
 **Problem:** Encountered a mismatch in feature counts between training and user input data when implementing the developed XGBoost model.  
-**Solution:** Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution.  
+**Solution:** Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution. <br> <br>
+
+![결과 출력 오류](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/8f8bf370-9b34-4945-90c3-0583cfaf6343)
 
 
 
