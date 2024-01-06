@@ -22,20 +22,56 @@ The main goals of the "GuardianPay" project are as follows:
 ## Project Technology Stack (프로젝트 기술 스택)
 
 The "GuardianPay" project uses the following technology stack:
-- Language: Python
-- Machine learning and deep learning libraries: TensorFlow, PyTorch
-- Data analysis and visualization: Pandas, Matplotlib, Seaborn
-- Web application development (optional): Flask, HTML, CSS <br> <br>
+- Language : Python
+- Data Analysis and Visualization : Pandas, Matplotlib, Seaborn, Numpy
+- Machine Learning and Modeling : Scikit-learn (train_test_split, confusion_matrix, classification_report)
+- Ensemble Learning Models : RandomForestClassifier, GradientBoostingClassifier
+- Algorithm-related Models : XGBoost, SVC (Support Vector Classifier)
+- Model Selection and Optimization : GridSearchCV
+- Data Preprocessing : OneHotEncoder, Pipeline, ColumnTransformer
+- Solving Data Imbalance : SMOTE (Synthetic Minority Over-sampling Technique)
+- Statistical Analysis : chi2_contingency (Chi-square test for independence)
+- Additional Tools and Libraries : Google Colab(drive), Shutil
+- Web Application Development (Optional) : Flask, HTML, CSS <br> <br>
 
 
 ## Project Workflow (프로젝트 진행 방식)
 
-The project will proceed in the following steps:
-1. Data Collection: Collect card payment data from sources like Kaggle.
-2. Data Preprocessing: Refine collected data and process it into the required format.
-3. Model Development: Develop and train machine learning and deep learning models.
-4. System Implementation: Build a system to detect abnormal card payment behavior in real-time using the models.
-5. Web Application (optional): Develop a web application for cardholders to monitor their payment activities. <br> <br>
+The project was conducted in the following steps:
+1. Data Collection : Collect card payment data from sources from Kaggle.
+2. Data File Integration & Dataset Preprocessing.
+3. Model Development : Developing and training models based on machine learning algorithms.
+4. Model Evaluation and Feature Implementation.
+5. System Construction (Optional): Building a system to detect card payment anomalies in real-time.
+6. Web Application (Optional): Developing a web application for card owners to monitor their payment activities. <br> <br>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa   
+Project Execution Process
+
+The project was carried out as follows:
+
+Collected payment card information, user information, and fraud data files from Kaggle.
+Integrated and preprocessed datasets to form a consolidated file for model configuration.
+Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected.
+Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.
+Conducted a chi-square test to derive the p-value, confirming a strong correlation between the two variables despite the small dataset, and decided to include these columns in the model.
+Attempted to analyze 'normal payment' and 'fraudulent payment' patterns based on the 'Amount', 'Time', and 'Merchant City' columns, and visualized the time and amount of fraud transactions in major regions to analyze elements necessary for model configuration.
+Conducted oversampling & trained the Random Forest model, generating a report and constructing a Confusion Matrix. Attempted to address data imbalance and improve precision, recall, and f1-score values to enhance fraud detection.
+Tuned model parameters using GridSearchCV and tested models including Support Vector Machine (SVM), Gradient Boosting, and XGBoost. XGBoost was identified as the main ML model for this project due to its high accuracy in predicting actual fraudulent transactions.
+Constructed ROC Curve Comparison and Precision-Recall Curve Comparison to additionally compare the performance with other models. XGBoost demonstrated higher precision but slightly lower recall compared to Gradient Boosting, indicating a higher likelihood of correct fraud prediction.
+Mounted Google Drive, loaded the XGBoost model, retrieved the list of all cities from the training dataset, performed one-hot encoding, and prepared model input data for prediction.
+Project Challenges
+
+Challenges encountered during the project were analyzed:
+
+Data Preprocessing Issue:
+
+Problem: During data file integration, fraud determination data values were transformed into NaN.
+Solution: Unified data values to YES and NO, converted to 0 and 1, to resolve the issue caused by conflicts in NaN data values during file integration.
+Model Implementation Issue:
+
+Problem: Encountered a mismatch in feature counts between training and user input data when implementing the developed XGBoost model.
+Solution: Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution.
 
 
 
