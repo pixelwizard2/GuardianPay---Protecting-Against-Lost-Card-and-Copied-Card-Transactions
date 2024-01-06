@@ -14,7 +14,7 @@ _비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그�
 ## Project Introduction (프로젝트 소개)
 
 Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated.  <br>  <br>
-**Development period:** 2024.01.05~2024.01.07 [30h] <br> <br> <br>
+**Development period:** 2024.01.05~2024.01.07 (30h) <br> <br> <br>
 
 
 
