@@ -2,7 +2,7 @@
 
 # GuardianPay - Protecting Against Lost Card and Copied Card Transactions
 
-비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> <br> <br>
+_비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램_ <br> <br> <br>
 ![경고사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/b63a944b-a865-45a2-bd76-2095e544f6d4) 
 ## Project Introduction (프로젝트 소개)
 
