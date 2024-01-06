@@ -67,7 +67,7 @@ Attempted to analyze 'normal payment' and 'fraudulent payment' patterns based on
 ![7  혼동행렬 체크](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/984d631f-d925-4067-a4e2-9162f28b5355)
 Conducted oversampling & trained the Random Forest model, generating a report and constructing a Confusion Matrix. Attempted to address data imbalance and improve precision, recall, and f1-score values to enhance fraud detection.  <br> <br> <br>
 
-![8  모델 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/4df32037-4845-40de-af12-f087da5b5d84)
+![8  모델 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/4df32037-4845-40de-af12-f087da5b5d84)  
 Tuned model parameters using GridSearchCV and tested models including Support Vector Machine (SVM), Gradient Boosting, and XGBoost. XGBoost was identified as the main ML model for this project due to its high accuracy in predicting actual fraudulent transactions. <br> <br> <br>
 
 ![9  그래프 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/1cd457c4-94b9-4f5a-8b2a-ea272c51defc)
