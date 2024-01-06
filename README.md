@@ -3,11 +3,11 @@
 # GuardianPay - Protecting Against Lost Card and Copied Card Transactions
 
 비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> <br> <br>
-
+![경고사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/b63a944b-a865-45a2-bd76-2095e544f6d4) 
 ## Project Introduction (프로젝트 소개)
 
 Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br> <br> <br>
-![경고사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/b63a944b-a865-45a2-bd76-2095e544f6d4) 
+
 
 ## Project Goals (프로젝트 목표)
 
@@ -16,7 +16,7 @@ The main goals of the "GuardianPay" project are as follows:
 - Block transactions that appear suspicious during payment attempts and notify cardholders.
 - Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior. <br> <br>
 
-
+![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
 ## Project Technology Stack (프로젝트 기술 스택)
 
 The "GuardianPay" project uses the following technology stack:
@@ -31,8 +31,8 @@ The "GuardianPay" project uses the following technology stack:
 - Statistical Analysis : chi2_contingency (Chi-square test for independence)
 - Additional Tools and Libraries : Google Colab(drive), Shutil
 - Web Application Development (Optional) : Flask, HTML, CSS <br> <br>
-![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
 
+![카글 페이지](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/09c2dcb3-85df-4903-a01b-fda931f73ae4)
 ## Project Workflow (프로젝트 진행 방식)
 
 The project was conducted in the following steps:
@@ -42,14 +42,16 @@ The project was conducted in the following steps:
 4. Model Evaluation and Feature Implementation.
 5. System Construction (Optional): Building a system to detect card payment anomalies in real-time.
 6. Web Application (Optional): Developing a web application for card owners to monitor their payment activities. <br> <br> <br>
-![카글 페이지](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/09c2dcb3-85df-4903-a01b-fda931f73ae4)
+
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa   
-Project Execution Process
+## Project Execution Process (프로젝트 수행 과정)
 
 The project was carried out as follows:
+![1  데이터셋 출력 사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/e5b5d00d-a73b-4127-b3a5-65ee23249441)
+Collected payment card information, user information, and fraud data files from Kaggle. <br> <br>
 
-Collected payment card information, user information, and fraud data files from Kaggle.
+
 Integrated and preprocessed datasets to form a consolidated file for model configuration.
 Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected.
 Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.
