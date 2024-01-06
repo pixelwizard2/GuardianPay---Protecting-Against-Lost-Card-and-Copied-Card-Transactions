@@ -21,7 +21,7 @@ The main goals of the "GuardianPay" project are as follows:
 
 The "GuardianPay" project uses the following technology stack:
 **- Language :** Python
-- Data Analysis and Visualization : Pandas, Matplotlib, Seaborn, Numpy
+**- Data Analysis and Visualization :** Pandas, Matplotlib, Seaborn, Numpy
 - Machine Learning and Modeling : Scikit-learn (train_test_split, confusion_matrix, classification_report)
 - Ensemble Learning Models : RandomForestClassifier, GradientBoostingClassifier
 - Algorithm-related Models : XGBoost, SVC (Support Vector Classifier)
@@ -48,14 +48,14 @@ The project was conducted in the following steps:
 
 The project was carried out as follows: <br> <br>
 ![1  데이터셋 출력 사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/e5b5d00d-a73b-4127-b3a5-65ee23249441)
-Collected payment card information, user information, and fraud data files from Kaggle. <br> <br>
+Collected payment card information, user information, and fraud data files from Kaggle. <br> <br> <br>
 
 ![3  전처리완료](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/46130330-9e01-4df8-8975-1a1eb4dcd67d)
-Integrated and preprocessed datasets to form a consolidated file for model configuration. <br> <br>
+Integrated and preprocessed datasets to form a consolidated file for model configuration. <br> <br> <br>
 
 ![4  히트맵 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/bf831dad-32ee-40a3-abf3-38a4cad15a60)
 Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. 
-Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected. <br> <br>
+Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected. <br> <br> <br>
 
 
 Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.
