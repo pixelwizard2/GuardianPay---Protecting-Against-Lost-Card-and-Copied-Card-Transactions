@@ -36,11 +36,11 @@ The "GuardianPay" project uses the following technology stack:
 
 The project was conducted in the following steps:
 1. **Data Collection :** Collect card payment data from sources from Kaggle.
-**2. Data File Integration & Dataset Preprocessing.**
-3. Model Development : Developing and training models based on machine learning algorithms.
-4. Model Evaluation and Feature Implementation.
-5. System Construction (Optional): Building a system to detect card payment anomalies in real-time.
-6. Web Application (Optional): Developing a web application for card owners to monitor their payment activities. <br> <br>
+2. **Data File Integration & Dataset Preprocessing.**
+3. **Model Development :** Developing and training models based on machine learning algorithms.
+4. **Model Evaluation and Feature Implementation.**
+5. **System Construction (Optional):** Building a system to detect card payment anomalies in real-time.
+6. **Web Application (Optional):** Developing a web application for card owners to monitor their payment activities. <br> <br>
 ![카글 페이지](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/09c2dcb3-85df-4903-a01b-fda931f73ae4)
 
 
