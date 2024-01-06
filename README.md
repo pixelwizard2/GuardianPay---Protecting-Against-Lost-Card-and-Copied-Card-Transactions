@@ -20,7 +20,7 @@ The main goals of the "GuardianPay" project are as follows:
 ## Project Technology Stack (프로젝트 기술 스택)
 
 The "GuardianPay" project uses the following technology stack:
-- Language : Python
+**- Language :** Python
 - Data Analysis and Visualization : Pandas, Matplotlib, Seaborn, Numpy
 - Machine Learning and Modeling : Scikit-learn (train_test_split, confusion_matrix, classification_report)
 - Ensemble Learning Models : RandomForestClassifier, GradientBoostingClassifier
@@ -53,8 +53,11 @@ Collected payment card information, user information, and fraud data files from 
 ![3  전처리완료](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/46130330-9e01-4df8-8975-1a1eb4dcd67d)
 Integrated and preprocessed datasets to form a consolidated file for model configuration. <br> <br>
 
+![4  히트맵 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/bf831dad-32ee-40a3-abf3-38a4cad15a60)
+Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. 
+Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected. <br> <br>
 
-Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap. Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected.
+
 Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.
 Conducted a chi-square test to derive the p-value, confirming a strong correlation between the two variables despite the small dataset, and decided to include these columns in the model.
 Attempted to analyze 'normal payment' and 'fraudulent payment' patterns based on the 'Amount', 'Time', and 'Merchant City' columns, and visualized the time and amount of fraud transactions in major regions to analyze elements necessary for model configuration.
