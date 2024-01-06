@@ -2,8 +2,8 @@
 
 # GuardianPay - Protecting Against Lost Card and Copied Card Transactions
 
-비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> 
-![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
+비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> <br>
+![경고사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/b63a944b-a865-45a2-bd76-2095e544f6d4)
 ## Project Introduction (프로젝트 소개)
 
 Credit card payments are one of the indispensable convenient payment methods in modern society. However, issues such as card information leakage, duplication, and unauthorized usage continue to rise. This threatens the financial security of individuals and businesses. To address these issues, the "GuardianPay" project was initiated. <br> <br>
@@ -15,7 +15,7 @@ The main goals of the "GuardianPay" project are as follows:
 - Establish a system to detect abnormal card payment behavior and issue warnings.
 - Block transactions that appear suspicious during payment attempts and notify cardholders.
 - Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior. <br> <br>
-![경고사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/b63a944b-a865-45a2-bd76-2095e544f6d4)
+![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
 
 ## Project Technology Stack (프로젝트 기술 스택)
 
