@@ -15,8 +15,8 @@ The main goals of the "GuardianPay" project are as follows:
 - Establish a system to detect abnormal card payment behavior and issue warnings.
 - Block transactions that appear suspicious during payment attempts and notify cardholders.
 - Utilize real-time data analysis and machine learning algorithms for more accurate detection of fraudulent behavior. <br> <br>
-
 ![경고사진1](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/db256c05-cf23-4298-9f86-b039bcf1b905)
+
 ## Project Technology Stack (프로젝트 기술 스택)
 
 The "GuardianPay" project uses the following technology stack:
@@ -32,7 +32,6 @@ The "GuardianPay" project uses the following technology stack:
 - Additional Tools and Libraries : Google Colab(drive), Shutil
 - Web Application Development (Optional) : Flask, HTML, CSS <br> <br>
 
-![카글 페이지](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/09c2dcb3-85df-4903-a01b-fda931f73ae4)
 ## Project Workflow (프로젝트 진행 방식)
 
 The project was conducted in the following steps:
@@ -42,6 +41,7 @@ The project was conducted in the following steps:
 4. Model Evaluation and Feature Implementation.
 5. System Construction (Optional): Building a system to detect card payment anomalies in real-time.
 6. Web Application (Optional): Developing a web application for card owners to monitor their payment activities. <br> <br> <br>
+![카글 페이지](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/09c2dcb3-85df-4903-a01b-fda931f73ae4)
 
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa   
