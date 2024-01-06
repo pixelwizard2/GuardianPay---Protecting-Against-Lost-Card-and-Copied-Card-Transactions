@@ -78,16 +78,19 @@ XGBoost demonstrated higher precision but slightly lower recall compared to Grad
 Mounted Google Drive, loaded the XGBoost model, retrieved the list of all cities from the training dataset, performed one-hot encoding, and prepared model input data for prediction.  
 Project Challenges <br> <br> <br>
 
-Challenges encountered during the project were analyzed:
+## Challenges encountered during the project were analyzed:
 
-Data Preprocessing Issue:
+Organized and analyzed errors that occurred during the project progress.  
 
-Problem: During data file integration, fraud determination data values were transformed into NaN.
-Solution: Unified data values to YES and NO, converted to 0 and 1, to resolve the issue caused by conflicts in NaN data values during file integration.
-Model Implementation Issue:
+**Data Preprocessing Issue:**  
 
-Problem: Encountered a mismatch in feature counts between training and user input data when implementing the developed XGBoost model.
-Solution: Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution.
+**Problem:** During data file integration, fraud determination data values were transformed into NaN.  
+**Solution:** Unified data values to YES and NO, converted to 0 and 1, to resolve the issue caused by conflicts in NaN data values during file integration.  
+
+**Model Implementation Issue:**  
+
+**Problem:** Encountered a mismatch in feature counts between training and user input data when implementing the developed XGBoost model.  
+**Solution:** Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution.  
 
 
 
