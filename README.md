@@ -46,35 +46,35 @@ The project was conducted in the following steps:
 
 ## Project Execution Process (프로젝트 수행 과정)
 
-The project was carried out as follows: <br> <br>
-![1  데이터셋 출력 사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/e5b5d00d-a73b-4127-b3a5-65ee23249441)
+The project was carried out as follows: <br> <br> <br>
+![1  데이터셋 출력 사진](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/e5b5d00d-a73b-4127-b3a5-65ee23249441)  
 Collected payment card information, user information, and fraud data files from Kaggle. <br> <br> <br>
 
-![3  전처리완료](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/46130330-9e01-4df8-8975-1a1eb4dcd67d)
+![3  전처리완료](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/46130330-9e01-4df8-8975-1a1eb4dcd67d)  
 Integrated and preprocessed datasets to form a consolidated file for model configuration. <br> <br> <br>
 
-![4  히트맵 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/bf831dad-32ee-40a3-abf3-38a4cad15a60)
+![4  히트맵 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/bf831dad-32ee-40a3-abf3-38a4cad15a60)  
 Analyzed the correlation between the transaction amount ('Amount') and fraud status ('Is Fraud?') using a heatmap.  
 Although the correlation was very low at 0.6%, indicating almost no linear relationship, a more detailed analysis was conducted as a close relationship between the amount and fraud status was suspected. <br> <br> <br>
 
-![5  세부분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/f1c0ed96-f7d3-47e2-a4fa-6496eef3bc17)
+![5  세부분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/f1c0ed96-f7d3-47e2-a4fa-6496eef3bc17)  
 Analyzed the relationship between categorized amounts and fraud using graphs, recognizing that high-amount transactions relatively have a higher risk of fraud, but most fraud transactions occur in lower amount categories.  
 Conducted a chi-square test to derive the p-value, confirming a strong correlation between the two variables despite the small dataset, and decided to include these columns in the model. <br> <br> <br>  
 
-![6  세부 데이터](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/ed70e192-c2af-4719-96fe-07b1917328d9)
+![6  세부 데이터](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/ed70e192-c2af-4719-96fe-07b1917328d9)  
 Attempted to analyze 'normal payment' and 'fraudulent payment' patterns based on the 'Amount', 'Time', and 'Merchant City' columns, and visualized the time and amount of fraud transactions in major regions to analyze elements necessary for model configuration. <br> <br> <br>
 
-![7  혼동행렬 체크](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/984d631f-d925-4067-a4e2-9162f28b5355)
+![7  혼동행렬 체크](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/984d631f-d925-4067-a4e2-9162f28b5355)  
 Conducted oversampling & trained the Random Forest model, generating a report and constructing a Confusion Matrix. Attempted to address data imbalance and improve precision, recall, and f1-score values to enhance fraud detection.  <br> <br> <br>
 
 ![8  모델 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/4df32037-4845-40de-af12-f087da5b5d84)  
 Tuned model parameters using GridSearchCV and tested models including Support Vector Machine (SVM), Gradient Boosting, and XGBoost. XGBoost was identified as the main ML model for this project due to its high accuracy in predicting actual fraudulent transactions. <br> <br> <br>
 
-![9  그래프 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/1cd457c4-94b9-4f5a-8b2a-ea272c51defc)
+![9  그래프 분석](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/1cd457c4-94b9-4f5a-8b2a-ea272c51defc)  
 Constructed ROC Curve Comparison and Precision-Recall Curve Comparison to additionally compare the performance with other models.  
 XGBoost demonstrated higher precision but slightly lower recall compared to Gradient Boosting, indicating a higher likelihood of correct fraud prediction.  <br> <br> <br>  
 
-![2  결과 출력](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/ebe8a0d2-7a91-46bb-a72a-4a8fb48ebab7)
+![2  결과 출력](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/ebe8a0d2-7a91-46bb-a72a-4a8fb48ebab7)  
 Mounted Google Drive, loaded the XGBoost model, retrieved the list of all cities from the training dataset, performed one-hot encoding, and prepared model input data for prediction.  
 Project Challenges <br> <br> <br>
 
