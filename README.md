@@ -22,21 +22,21 @@ The main goals of the "GuardianPay" project are as follows:
 The "GuardianPay" project uses the following technology stack:
 - **Language :** Python
 - **Data Analysis and Visualization :** Pandas, Matplotlib, Seaborn, Numpy
-- Machine Learning and Modeling : Scikit-learn (train_test_split, confusion_matrix, classification_report)
-- Ensemble Learning Models : RandomForestClassifier, GradientBoostingClassifier
-- Algorithm-related Models : XGBoost, SVC (Support Vector Classifier)
-- Model Selection and Optimization : GridSearchCV
-- Data Preprocessing : OneHotEncoder, Pipeline, ColumnTransformer
-- Solving Data Imbalance : SMOTE (Synthetic Minority Over-sampling Technique)
-- Statistical Analysis : chi2_contingency (Chi-square test for independence)
-- Additional Tools and Libraries : Google Colab(drive), Shutil
-- Web Application Development (Optional) : Flask, HTML, CSS <br> <br>
+- **Machine Learning and Modeling :** Scikit-learn (train_test_split, confusion_matrix, classification_report)
+- **Ensemble Learning Models :** RandomForestClassifier, GradientBoostingClassifier
+- **Algorithm-related Models :** XGBoost, SVC (Support Vector Classifier)
+- **Model Selection and Optimization :** GridSearchCV
+- **Data Preprocessing :** OneHotEncoder, Pipeline, ColumnTransformer
+- **Solving Data Imbalance :** SMOTE (Synthetic Minority Over-sampling Technique)
+- **Statistical Analysis :** chi2_contingency (Chi-square test for independence)
+- **Additional Tools and Libraries :** Google Colab(drive), Shutil
+- **Web Application Development (Optional) :** Flask, HTML, CSS <br> <br>
 
 ## Project Workflow (프로젝트 진행 방식)
 
 The project was conducted in the following steps:
-1. Data Collection : Collect card payment data from sources from Kaggle.
-2. Data File Integration & Dataset Preprocessing.
+1. **Data Collection :** Collect card payment data from sources from Kaggle.
+**2. Data File Integration & Dataset Preprocessing.**
 3. Model Development : Developing and training models based on machine learning algorithms.
 4. Model Evaluation and Feature Implementation.
 5. System Construction (Optional): Building a system to detect card payment anomalies in real-time.
