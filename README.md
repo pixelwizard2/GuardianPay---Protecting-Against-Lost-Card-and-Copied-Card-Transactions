@@ -90,7 +90,7 @@ Organized and analyzed errors that occurred during the project progress: <br> <b
 **Model Implementation Issue:**  
 
 **Problem:** Encountered a mismatch in feature counts between training and user input data when implementing the developed XGBoost model.  
-**Solution:** Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution. <br> <br>
+**Solution:** Despite reconfiguring the model after investigating issues in hyperparameter adjustment and data preprocessing, the same error persisted. Further study on model design features is needed for resolution. I will definitely solve it.  <br> 
 
 ![결과 출력 오류](https://github.com/pixelwizard2/Project.AI--GuardianPay---Protecting-Against-Lost-Card-and-Copied-Card-Transactions/assets/138272416/8f8bf370-9b34-4945-90c3-0583cfaf6343)
 
