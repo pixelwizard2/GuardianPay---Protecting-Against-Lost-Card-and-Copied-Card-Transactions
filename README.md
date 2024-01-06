@@ -4,7 +4,7 @@
 
 비정상적인 거래 패턴 식별 및 복제 카드 결제 방지 프로그램 <br> <br> <br>
 
-
+![경고사진](https://github.com/pixelwizard2/floritaaa/assets/138272416/f38dc4d9-a954-4194-b490-e971fe4c664e)
 
 ## Project Introduction (프로젝트 소개)
 
